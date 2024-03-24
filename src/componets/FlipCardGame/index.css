@@ -1,5 +1,5 @@
 .flip-card-container {
-  background-image: url('https://res.cloudinary.com/dlsuy2qn2/image/upload/v1711264093/2dc472b089708c4ab1d2e84f5bdc481f_hejdok.jpg');
+  background-image: url('https://res.cloudinary.com/dlsuy2qn2/image/upload/v1711271571/2dc472b089708c4ab1d2e84f5bdc481f_1_afvbwc.jpg');
   background-size: cover;
   height: 150vh;
   display: flex;
@@ -36,4 +36,24 @@
   font-family: 'Bree serif';
   font-size: 17px;
   margin-right: 10%;
+}
+.level-time-container {
+  display: flex;
+  justify-content: space-between;
+  width: 928px;
+  margin-top: 20px;
+}
+.flip-card {
+  width: 928px;
+  height: 712px;
+  top: 296px;
+  left: 256px;
+  background-color: #154315;
+  border-radius: 24px;
+}
+.flip-images-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

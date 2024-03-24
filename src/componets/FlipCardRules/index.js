@@ -23,38 +23,32 @@ const FlipCardRules = ({isOpen, onClose}) => (
 
         <ul className="rules-list-container">
           <li>
-            In each level of the Game, Users should be able to see the Grid with
-            (N X N) size starting from 3 and the grid will highlight N cells in
-            Blue, the N highlighted cells will be picked randomly.
+            When the game is started, the users should be able to see the list
+            of Cards that are shuffled and turned face down.
           </li>
 
           <li>
-            The highlighted cells will remain N seconds for the user to memorize
-            the cells. At this point, the user should not be able to perform any
-            action.
+            When a user starts the game, the user should be able to see the
+            Timer running.
           </li>
 
-          <li>After N seconds, the grid will clear the N highlighted cells.</li>
+          <li>The Timer starts from 2 Minutes.</li>
 
           <li>
-            At N seconds, the user can click on any cell. Clicking on a cell
-            that was highlighted before it will turn blue. Clicking on the other
-            cells that were not highlighted before then will turn to red.
+            If the two cards have the same image, they remain face up. If not,
+            they should be flipped face down again after a short 2 seconds.
           </li>
 
-          <li>
-            The user should be promoted to the next level if they guess all N
-            cells correctly in one attempt.
-          </li>
+          <li>Users should be able to compare only two cards at a time.</li>
 
           <li>
-            The user should be taken to the results page if the user clicks on
-            the wrong cell.
+            When the user is not able to find all the cards before the timer
+            ends then the game should end and redirect to the Time Up Page.
           </li>
 
           <li>
-            If the user completed all the levels, then the user should be taken
-            to the results page.
+            If the user finds all the matching cards before the timer ends, then
+            the user should be redirected to the results page.
           </li>
         </ul>
       </div>
